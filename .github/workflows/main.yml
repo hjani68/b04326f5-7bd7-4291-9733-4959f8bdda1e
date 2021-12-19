@@ -39,7 +39,7 @@ jobs:
       run: dotnet format Coding-Test/Coding-Test.csproj --check --verbosity diagnostic
       
     - name: Run dotnet format Unit-Test
-      run: dotnet format Coding-Test/Unit-Test.csproj --check --verbosity diagnostic
+      run: dotnet format Unit-Test/Unit-Test.csproj --check --verbosity diagnostic
       
     - name: Restore dependencies
       run: dotnet restore Coding-Test.sln
