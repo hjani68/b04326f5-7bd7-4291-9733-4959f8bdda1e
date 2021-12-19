@@ -46,7 +46,7 @@ jobs:
     - name: Build
       run: dotnet build Coding-Test.sln --no-restore
     - name: Test
-      run: dotnet test Coding-Test/Unit-Test.csproj --logger trx --results-directory "TestResults-${{ matrix.dotnet-version }}"
+      run: dotnet test Unit-Test.csproj --logger trx --results-directory "TestResults-${{ matrix.dotnet-version }}"
     - name: Build container image
       run: docker-compose up
     
