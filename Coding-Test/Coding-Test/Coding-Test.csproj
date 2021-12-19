@@ -5,6 +5,7 @@
     <RootNamespace>Coding_Test</RootNamespace>
     <UserSecretsId>b0f9c6cd-e2c4-4990-885d-ef77bda70819</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
 
   <ItemGroup>
